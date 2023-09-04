@@ -8,10 +8,10 @@ import os
 app = Flask(__name__)
 # Your Twitter API configuration code here
 
-consumer_key = "5mNygPAwvs5xu7EPuACotb4IJ"
-consumer_secret = "XE5xv79P6KKh0FhzYcFFwivOxhWOADwqDEJdxnm1KYUL1yyB8W"
-access_token = "1511705726770679814-pD81MYYiiTNBLNzvyarZEBlkNa60j0"
-access_token_secret = "aBbuqSOJDuUO3whtyJicE95PuhJEMBUFeeO2uQj7VY1lf"
+consumer_key = "***"
+consumer_secret = "****"
+access_token = "****"
+access_token_secret = "****"
 import os
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
